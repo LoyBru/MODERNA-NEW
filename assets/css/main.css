@@ -2683,3 +2683,11 @@ section,
   padding-top: 2vh;    /* padding relativo all'altezza del viewport */
   padding-bottom: 2vh; /* padding relativo all'altezza del viewport */
 }
+
+.swiper-description {
+  font-size: 1.9rem;
+  color: #333;
+  text-align: center;
+  margin-top: 0.9rem;
+}
+
