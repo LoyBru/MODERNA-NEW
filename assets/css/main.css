@@ -2656,3 +2656,30 @@ section,
   margin-left: 2px;
   margin-bottom: 9px;
 }
+
+
+
+
+/* prova */
+
+/* 1. Altezza costante per tutte le slide */
+.coverflowSwiper .swiper-slide {
+  width: 300px;      /* larghezza personalizzabile */
+  height: 300px;     /* altezza fissa per i loghi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 2. Logo centrato e ridimensionato interamente */
+.coverflowSwiper .swiper-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* mantiene proporzioni e non taglia */
+}
+
+/* 3. Padding per evitare che il coverflow "tagli" le estremità */
+.coverflowSwiper .swiper-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
