@@ -2664,8 +2664,8 @@ section,
 
 /* 1. Altezza costante per tutte le slide */
 .coverflowSwiper .swiper-slide {
-  width: 20vw;      /* larghezza in base alla larghezza del viewport */
-  height: 20vh;     /* altezza in base all'altezza del viewport */
+  width: 40vw;      /* larghezza in base alla larghezza del viewport */
+  height: 40vh;     /* altezza in base all'altezza del viewport */
   display: flex;
   justify-content: center;
   align-items: center;
