@@ -2664,8 +2664,8 @@ section,
 
 /* 1. Altezza costante per tutte le slide */
 .coverflowSwiper .swiper-slide {
-  width: 300px;      /* larghezza personalizzabile */
-  height: 300px;     /* altezza fissa per i loghi */
+  width: 20vw;      /* larghezza in base alla larghezza del viewport */
+  height: 20vh;     /* altezza in base all'altezza del viewport */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2680,6 +2680,6 @@ section,
 
 /* 3. Padding per evitare che il coverflow "tagli" le estremità */
 .coverflowSwiper .swiper-wrapper {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 2vh;    /* padding relativo all'altezza del viewport */
+  padding-bottom: 2vh; /* padding relativo all'altezza del viewport */
 }
