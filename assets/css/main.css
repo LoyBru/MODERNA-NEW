@@ -2688,7 +2688,7 @@ section,
 /* SECTION CURRICULUM */
 
 #curriculum {
-  background-color: #f4f7fc;
+  background-color: #ffffff;
 }
 
 #curriculum .php-email-form {
@@ -2711,7 +2711,7 @@ section,
   color: #fff;
   border: none;
   padding: 12px 25px;
-  border-radius: 5px;
+  border-radius: 36px;
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
@@ -2772,4 +2772,14 @@ section,
     transform: rotate(360deg);
   }
 }
+
+.custom-form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* privacy button */
+
 

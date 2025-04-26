@@ -1,0 +1,32 @@
+.glow-effect {
+    position: relative;
+    overflow: hidden; /* Impedisce l'overflow dell'animazione */
+    z-index: 0;
+}
+
+.glow-effect::before {
+    content: '';
+    position: absolute;
+    top: -10px; /* Leggermente sopra il bottone */
+    left: -10px; /* Leggermente a sinistra del bottone */
+    width: calc(100% + 20px); /* Fai in modo che l'animazione sia fuori dal bottone */
+    height: calc(100% + 20px); /* Aggiungi la dimensione extra */
+    background: linear-gradient(45deg, #00c6ff, #0072ff, #00ffcc, #0047ff, #00ff99, #1e90ff, #4b0082);
+    background-size: 400%;
+    filter: blur(10px); /* Un po' più sottile */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 15px; /* Adatta il raggio dell'animazione */
+    animation: glowing 20s linear infinite;
+    z-index: -1;
+}
+
+.glow-effect:hover::before {
+    opacity: 1;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
