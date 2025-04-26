@@ -414,8 +414,11 @@
             <li><i class="bi bi-chevron-right"></i> <a href="about.html">L'azienda</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="services.html">Servizi</a></li>
             <!-- Aggiunta il link per Privacy e Cookies -->
-            <li><i class="bi bi-chevron-right"></i> <a href="#" onclick="Usercentrics.showFirstLayer()">Privacy e
-                Cookies</a></li>
+            <!-- Aggiunto link corretto per Privacy e Cookies -->
+            <li><i class="bi bi-chevron-right"></i>
+              <a href="#" onclick="event.preventDefault(); Usercentrics.showFirstLayer()">Privacy e Cookies</a>
+            </li>
+
           </ul>
         </div>
 
