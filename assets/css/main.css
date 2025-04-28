@@ -2782,4 +2782,12 @@ section,
 
 /* privacy button */
 
+/* Swipper centerd */
+
+.centered-swiper {
+  display: flex;
+  justify-content: center; /* Centra gli slide orizzontalmente */
+  align-items: center; /* Centra gli slide verticalmente */
+  gap: 20px; /* Aggiungi uno spazio tra gli slide */
+}
 
